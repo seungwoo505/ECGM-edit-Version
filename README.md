@@ -2,6 +2,9 @@
 
 그때와 마찬가지로 Download 폴더의 pdf파일이 100MB가 넘어 압축했습니다. 정상적인 이용을 위해 압축을 해제해주세요.
 
+# UI
+![ECGM](https://github.com/seungwoo505/ECGM-edit-Version/blob/main/mainScreen.png)
+
 # 버그리포트
 
 ```
