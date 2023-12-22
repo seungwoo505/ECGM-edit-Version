@@ -1,0 +1,41 @@
+.partner{
+    display: inline-block;
+    width: 23%;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.partner:hover{
+  background-color: #adb5bd;
+}
+
+.partner:not(.firsts):not(.lasts){
+  margin: 0.7%;
+}
+
+.firsts{
+  margin-right: 0.7%; 
+}
+
+.lasts{
+  margin-left: 0.7%;
+}
+
+.partner > a{
+  text-decoration: none;
+  color: black;
+}
+
+.partner > a > img{
+  width: 80%;
+  height: auto;
+  margin: 10%;
+}
+
+.partner > a > p{
+  display: block;
+  margin: 0;
+  padding: 2.5% 0;
+  background-color: #f1f3f5;
+}

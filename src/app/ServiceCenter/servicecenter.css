@@ -1,0 +1,66 @@
+.grid-container{
+    width: 100%;
+    height: 100%;
+  }
+  .ServiceCenter-triggers {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .ServiceCenter-touch-button {
+      border: none;
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin: 0 0.14% 1%;
+      line-height: 50px;
+      height: auto;
+      letter-spacing: 1px;
+      width: 26.5%;
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+        background: #fff;
+        color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .ServiceCenter-touch-button:focus{
+    outline: none;
+  }
+  
+  .ServiceCenter-touch-button:active {
+      box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  }
+  
+  .ServiceCenter-touch-button:hover{
+    box-shadow: 4px 4px 4px rgba(207, 107, 57, 0.6);
+    color: rgba(207, 107, 57, 1.0);
+  }
+  
+  .shadow{
+    box-shadow: 4px 4px 4px rgba(207, 107, 57, 0.6);
+    color: rgba(207, 107, 57, 1.0);
+    font-weight: 700;
+  }
+  
+  .ServiceCenter-page {
+      width: 100%;
+      height: 100%;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+  }
+  
+  .ServiceCenter-page {
+      display: inline-block;
+      visibility: visible;
+      z-index: 1;
+  }

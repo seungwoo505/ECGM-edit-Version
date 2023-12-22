@@ -1,0 +1,136 @@
+#distribution_bigimg{
+    width: 70%;
+    height: auto;
+  }
+  
+#distribution_biglittleimgs{
+  width: 100%;
+  height: auto;
+  background-color: #f1f3f5;
+}
+
+.distribution_imgs{
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.distribution_imgs:hover{
+  background-color: #adb5bd;
+}
+
+.distribution_imgs:not(:first-child):not(:last-child){
+  margin: 0 0.7%;
+}
+
+.distribution_imgs:nth-child(1){
+  margin-right: 0.7%;
+}
+
+.distribution_imgs:nth-last-child(1){
+  margin-left: 0.7%;
+}
+
+.distribution_imgs > a > img{
+  width: 100%;
+  height: 100%;
+}
+
+#distribution_bottom{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#distribution_explanation{
+  line-height: 2rem;
+}
+
+#distribution_title{
+  color: rgb(207, 107, 57);
+}
+
+#distribution_thead, #distribution_tbody{
+  text-align: center;
+}
+
+#distribution_thead{
+  background-color: #f1f3f5;
+}
+
+#distributions_leftimages{
+  width: 40%;
+}
+
+#distributions_bigimg{
+  width: 70%;
+  height: auto;
+}
+
+#distributions_explanation{
+  line-height: 2rem;
+}
+
+#distributions_title{
+  color: rgb(207, 107, 57);
+}
+
+.distributions_imgs{
+  width: 15%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+.distributions_imgs:not(:last-child){
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.distributions_imgs:hover:not(#distributions_divimg5){
+  background-color: #adb5bd;
+}
+
+.distributions_imgs:not(:first-child):not(:last-child){
+  margin: 0 0.7%;
+}
+
+.distributions_imgs:nth-child(1){
+  margin-right: 0.7%;
+}
+
+.distributions_imgs:nth-last-child(1){
+  margin-left: 0.7%;
+}
+
+.distributions_imgs > a > img{
+  width: 100%;
+  height: 100%;
+}
+
+#distributions_bottom{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#distributions_divimg5{
+  width: 23%;
+  height: 50%;
+}
+
+#distributions_buton{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: #f1f3f5;
+  width: 100%;
+  padding: 1% 0 1% 0;
+  font-size: 0.95rem;
+
+}
+
+#distributions_buton:focus{
+  outline: none;
+}
+
+#distributions_buton:hover{
+  background-color: rgba(207, 107, 57, 0.6);
+}

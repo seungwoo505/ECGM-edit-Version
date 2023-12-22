@@ -1,0 +1,108 @@
+#Mainbar > a{
+	height: auto;
+	width: 10%;
+	padding: 0 0 0 10%;
+}
+#logo{
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+}
+
+#Mainbar{
+	height: 10%; /*75px*/
+	padding: 1rem 1rem 0 1rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0);
+	z-index: 2;
+}
+
+.menu{
+	color: #616161;
+	font-weight:bold;
+	margin:0px;
+	text-align:center;
+	text-decoration:none;
+	width: 100%;
+	padding: 10% 3rem 10% 3rem;
+}
+
+#Mainbar > ul{
+	position: relative;
+	border:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width: 60%;
+	text-align: center;
+	height: 30%;
+}
+
+#Mainbar > ul > li{
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+
+#Mainbar > ul > li > a{
+	font-size: 1rem;
+}
+
+li{
+	list-style-type: none;
+}
+
+#Mainbar > ul > li > ul{
+	width: 100%;
+	position: absolute;
+	float: left;
+	opacity: 0;
+	visibility: hidden;
+	height: auto;
+	border: 0px;
+	z-index: 200;
+	padding: 0;
+	margin-top: 10%;
+	transition: all 0.3s ease-in;
+}
+
+#Mainbar > ul > li > ul{
+}
+
+#Mainbar > ul > li > a:hover, #Mainbar > ul > li:hover > a{
+	background: rgba(71,71,71, 0.1);
+	border: 0px;
+}
+
+#Mainbar > ul > li:hover > ul{
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease-in;
+}
+
+#Mainbar li li {
+	background: rgba(71, 71, 71, 1);
+	display:block;
+	float:none;
+	margin:0px;
+	width: 100%;
+}
+
+#Mainbar li ul a{
+	display:block;
+	width: auto;
+	font-size:0.85rem;
+	font-style:normal;
+	line-height: 3rem;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#Mainbar > ul > li > ul > li > a:hover, #Mainbar > ul > li > ul > li:hover > a{
+	background: rgba(0, 0, 0, 0.3);
+	border:0px;
+}

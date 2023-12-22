@@ -1,0 +1,110 @@
+.pt-perspective {
+	width: 100%;
+	height: auto;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.AboutUs-page {
+	width: 84%;
+	height: 100%;
+	display: inline-block;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+/* Text Styles, Colors, Backgrounds */
+.AboutUs-page img{
+	width: 80%;
+	height: auto;
+}
+
+/* Triggers (menu and button) */
+.AboutUs-triggers {
+	width: 100%;
+	text-align: center;
+}
+.page{
+	color: rgba(207, 107, 57, 0.6);
+	box-shadow: 0 3px 0 rgba(207, 107, 57, 0.6);
+}
+
+.AboutUs-touch-button {
+	border: none;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 0 0.14% 1%;
+	line-height: 50px;
+	height: 50px;
+	letter-spacing: 1px;
+	width: 20%;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.AboutUs-touch-button {
+	background: #fff;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.AboutUs-touch-button:focus{
+  outline: none;
+}
+
+.AboutUs-touch-button:hover{
+  box-shadow: 4px 4px 4px rgba(207, 107, 57, 0.6);
+  color: rgba(207, 107, 57, 1.0);
+}
+
+.AboutUs-touch-button:active {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+#AboutUs-main{
+	text-align: center;
+}
+  
+@media screen and (max-width: 47.4375em) {
+	.pt-page h1 {
+		font-size: 3em;
+	}
+
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}
+
+@media screen and (max-height: 45.9em) {
+	.pt-triggers .dl-menuwrapper li a {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+	.pt-triggers .dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after {
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-height: 38em) { 
+	.pt-triggers .dl-menuwrapper {
+		display: none;
+	}
+}
+
+.shadow{
+	box-shadow: 4px 4px 4px rgba(207, 107, 57, 0.6);
+	color: rgba(207, 107, 57, 1.0);
+	font-weight: 700;
+}

@@ -1,0 +1,82 @@
+#second_process_biglittleimgs{
+    width: 100%;
+    height: auto;
+    background-color: #f1f3f5;
+}
+
+.second_process_imgs > p{
+  display: inline-block;
+}
+
+.second_process_imgs{
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.second_porocess_imgs:hover{
+  background-color: #adb5bd;
+}
+
+.second_process_imgs:not(:first-child):not(:last-child){
+  margin: 0 0.7%;
+}
+
+.second_process_imgs:nth-child(1){
+  margin-right: 0.7%;
+}
+
+.second_process_imgs:nth-last-child(1){
+  margin-left: 0.7%;
+}
+
+.second_process_imgs > a > img{
+  width: 100%;
+  height: 100%;
+}
+
+#second_bottom{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#process_explanation, #process_standard{
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#process_bigimg, #second_process_bigimg{
+  width: 70%;
+  height: auto;
+}
+
+#process_knife_img{
+  width: 80%;
+  height: auto;
+}
+
+#process_explanation{
+  line-height: 2rem;
+}
+
+#process_title{
+  color: rgb(207, 107, 57);
+}
+
+#second_process_explanation{
+  line-height: 2rem;
+}
+
+#second_process_title{
+  color: rgb(207, 107, 57);
+}
+
+#process_thead, #process_tbody{
+  text-align: center;
+}
+
+
+#process_thead{
+  background-color: #f1f3f5;
+}

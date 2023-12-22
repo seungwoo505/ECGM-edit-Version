@@ -1,0 +1,80 @@
+.AboutUs-page-2{
+	text-align: left;
+}
+.cp{
+	width: 35%;
+	height: auto;
+	margin: 5% 0 3% 15%;
+}
+.cp > img{
+	widows: 100%;
+}
+#round{
+	display: inline-block;
+	height: auto;
+	width: 10%;
+	margin: 2% 0 0 45%;
+	transition-duration: 1s;
+	transition-property: margin, transform;
+	z-index: 1;
+}
+
+.year{
+	border: 3px solid rgba(79, 78, 78, 0.6);
+	display: inline-block;
+	width: 11rem;
+	height: 11rem;
+	border-radius: 50%;
+	line-height: 11rem;
+	font-size: 1.2rem;
+	text-align: center;
+	color: rgba(79, 78, 78, 1);
+}
+
+.year:hover{
+	border: 3px solid rgba(207, 107, 57, 0.6);
+	color: rgba(207, 107, 57, 1);
+}
+
+.year_cheak{
+	border: 3px solid rgba(207, 107, 57, 0.6);
+	display: inline-block;
+	width: 11rem;
+	height: 11rem;
+	border-radius: 50%;
+	line-height: 11rem;
+	font-size: 1.2rem;
+	text-align: center;
+	color: rgba(207, 107, 57, 1);
+}
+
+#round_cheak{
+	display: inline-block;
+	height: auto;
+	width: 10%;
+	margin: 2% 0 0 13%;
+	transform: translate(0, 0);
+	transition-duration: 1s;
+	transition-property: margin, transform;
+	z-index: 1;
+}
+
+.year:not(#y10), .year_cheak:not(#y10){
+	margin-top: 15%;
+}
+
+#infomation{
+	float: right;
+	display: inline-block;
+	height: auto;
+	width: 70%;
+	transition-duration: 1s;
+	transition-delay: 1s;
+	transition-property: all;
+	margin-top: 2%;
+}
+
+#info_img{
+	width: 100%;
+	height: auto;
+}

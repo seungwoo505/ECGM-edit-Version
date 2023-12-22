@@ -1,0 +1,45 @@
+#footer{
+	margin: 0;
+	background-color: #f2f2f2;
+	height: 25%;
+	width: 100%;
+	margin-top: 1%;
+}
+#footer img{
+	width: 15%;
+	height: auto;
+	margin: 3% 0 0 15%;
+}
+
+.buttom_menu{
+	display: inline-block;
+	float: right;
+	width: 60%;
+	border: none;
+	list-style-type: none;
+	margin: 3.2% 0 0 0;
+	padding: 0;
+}
+
+.buttom_menu li{
+	display: inline-block;
+	font-weight:bold;
+	margin:0;
+	text-align:center;
+	text-decoration:none;
+	width: 10%;
+}
+
+.buttom_menu li:first-child{
+	margin-left: 30%;
+}
+
+.buttom_menu li a{
+	font-size: 0.7rem;
+	color: #28292b;
+}
+#buttom_ex{
+	margin: 2.5% 0 0 15%;
+	font-size: 0.7rem;
+	color: #28292b;
+}

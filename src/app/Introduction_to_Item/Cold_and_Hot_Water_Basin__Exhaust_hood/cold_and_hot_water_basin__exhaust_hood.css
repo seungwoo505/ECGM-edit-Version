@@ -1,0 +1,129 @@
+#kitchen_bigimg{
+  width: 70%;
+  height: auto;
+}
+
+#kitchen_biglittleimgs{
+  width: 100%;
+  height: auto;
+  background-color: #f1f3f5;
+}
+
+.kitchen_imgs{
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#kitchen_explanation{
+  line-height: 2rem;
+}
+
+#kitchen_title{
+  color: rgb(207, 107, 57);
+}
+
+.kitchen_imgs:hover{
+  background-color: #adb5bd;
+}
+
+.kitchen_imgs:not(:first-child):not(:last-child){
+  margin: 0 0.7%;
+}
+
+.kitchen_imgs:nth-child(1){
+  margin-right: 0.7%;
+}
+
+.kitchen_imgs:nth-last-child(1){
+  margin-left: 0.7%;
+}
+
+.kitchen_imgs > a > img{
+  width: 100%;
+  height: 100%;
+}
+
+#kitchen_bottom{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#kitchen_thead, #kitchen_tbody{
+  text-align: center;
+}
+
+#kitchen_thead{
+  background-color: #f1f3f5;
+}
+
+#kitchens_leftimages{
+  width: 40%;
+}
+
+#kitchens_title{
+  color: rgb(207, 107, 57);
+}
+
+#kitchens_bigimg{
+  width: 70%;
+  height: auto;
+}
+
+.kitchens_imgs{
+  width: 15%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.kitchens_imgs:hover:not(#kitchens_divimg5){
+  background-color: #adb5bd;
+}
+
+.kitchens_imgs:not(:first-child):not(:last-child){
+  margin: 0 0.7%;
+}
+
+.kitchens_imgs:nth-child(1){
+  margin-right: 0.7%;
+}
+
+.kitchens_imgs:nth-last-child(1){
+  margin-left: 0.7%;
+}
+
+.kitchens_imgs > a > img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#kitchens_bottom{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#kitchens_divimg5{
+  width: 23%;
+  height: 50%;
+}
+
+#kitchens_buton{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: #f1f3f5;
+  width: 100%;
+  padding: 1% 0;
+  font-size: 0.95rem;
+}
+
+#kitchens_buton:focus{
+  outline: none;
+}
+
+#kitchens_buton:hover{
+  background-color: rgba(207, 107, 57, 0.6);
+}
