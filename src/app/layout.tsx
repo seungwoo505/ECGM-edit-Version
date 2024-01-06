@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <Script strategy='beforeInteractive' src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=o9alob2bbd&callback=CALLBACK_FUNCTION"/>
+      <Script strategy='beforeInteractive' src="open API 키 값 입력"/>
       <body className={inter.className}>
         <Top/>
         {children}
