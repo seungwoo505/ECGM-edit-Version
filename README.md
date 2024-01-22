@@ -8,7 +8,7 @@ Vanilla JS 였던 코드들을 Next.js에 맞춰 최신화 작업을 진행했�
 # UI
 ![ECGM](https://github.com/seungwoo505/ECGM-edit-Version/blob/main/mainScreen.png)
 
-# 버그리포트
+# 리포트
 
 ```
   ES6 문법에 맞춰 노후화된 코드를 최신화시켰습니다.
