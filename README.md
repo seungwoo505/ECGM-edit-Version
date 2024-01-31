@@ -5,6 +5,8 @@
 
 Vanilla JS 였던 코드들을 Next.js에 맞춰 최신화 작업을 진행했습니다.
 
+개인 기여도 : 100%
+
 # UI
 ![ECGM](https://github.com/seungwoo505/ECGM-edit-Version/blob/main/mainScreen.png)
 
