@@ -44,7 +44,7 @@ export default function Middle(){
 									</p>
 
 									<div>
-										<Link href={Urls[i]} onClick={() => localStorage.setItem('number', `${url_current[i][0]}`)}>
+										<Link href={Urls[i]} onClick={() => localStorage.setItem('number', `${url_current[i]}`)}>
 											<button>
 												제품 바로가기
 											</button>
