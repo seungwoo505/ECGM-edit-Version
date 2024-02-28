@@ -12,7 +12,7 @@ MPA환경으로 제작되었던 페이지를 좀 더 원활하게 동작하게�
 제작 기간: 2023.07 ~ 2024.02
 
 ## UI
-![ECGM](https://github.com/seungwoo505/ECGM-edit-Version/blob/main/mainScreen.png)
+<img src="https://github.com/seungwoo505/ECGM-edit-Version/blob/main/mainScreen.png" height="500"/>
 
 ## 설명
 MPA에 동작해도 상관없지만 일부환경에 대해서는 SPA에 어울리는 환경입니다.
